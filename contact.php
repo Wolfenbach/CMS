@@ -27,8 +27,8 @@
 		$metadescription = "If you want to contact me, then I am availerable, through Email or Linkedin, I can also be contacted via the mail form on this page.";		
 	}
 	
-	define('SITE_KEY', '6Les6YgUAAAAAL9LVISL2qGZ3dTlqwMTe37Bb4xP');
-	define('SECRET_KEY', '6Les6YgUAAAAAHCvP49P0V6xyZmU1GEreFnlWo2W');	
+	define('SITE_KEY', 'Recaptcha Site Key');
+	define('SECRET_KEY', 'Recaptcha Secret Key');	
 	
 	$action = "send_form_email.php";
 	
