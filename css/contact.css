@@ -1,0 +1,39 @@
+@media (max-width:768px){
+	div.row{
+		flex-wrap: wrap;
+	}
+}
+
+form{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+input, textarea{
+	padding: 10px;
+	padding-left: 20px;
+	margin: 7px;
+	margin-bottom: 15px;
+	width: 100%;
+	font-family: Roboto;
+}
+
+textarea{
+	display: block;
+	min-height: 250px;
+	resize: none;
+}
+
+#contactinfo{
+	margin: auto;
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.row{
+	display: flex;
+	margin-right: -10px;
+	margin-left: -10px;
+}

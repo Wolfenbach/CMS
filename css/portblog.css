@@ -1,0 +1,177 @@
+@media (max-width:768px){
+	
+	div.filtsetting-span {
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 5px;
+		text-align: left;
+		background-color: #ebebeb;
+	}
+	
+	div.filtsetting-span > label {
+		color: #302f2f;
+		margin: 0px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	input.cal-sel {
+		width: 70px;
+	}
+	
+	select {
+		height: 23px;
+		margin-right: 35px;
+	}
+	
+	select#search_method {
+		margin-right: 50px;
+	}	
+	
+	input, select {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width:1200px) and (min-width:768px){
+	
+	div.filtsetting-span {
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 5px;
+		text-align: left;
+		background-color: #ebebeb;
+	}
+	
+	div.filtsetting-span > label {
+		color: #302f2f;
+		margin: 0px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	input.cal-sel {
+		width: 70px;
+	}
+
+	input {
+		height:17px;
+		margin-right: 5px;
+	}
+	
+	select {
+		height: 23px;
+		margin-right: 76px;
+	}
+
+	input, select {
+		margin-bottom: 5px;
+	}
+	
+	select#search_method {
+		margin-right: 58px;
+	}	
+}
+
+@media (min-width:1200px) {
+
+	.article{
+		width: 47.5%;
+		float: left;
+	}
+	
+	div.filtsetting-span {
+		padding: 10px;
+		text-align: center;
+		background-color: #ebebeb;
+	}
+
+	input.cal-sel {
+		width: 70px;
+	}
+	
+	input {
+		height:17px;
+	}
+	
+	label {
+		color: #302f2f;
+		margin: 0px;
+		font-weight: bold;
+	}
+	
+	select {
+		height: 23px;
+	}
+	
+	input, select {
+		margin-right: 5px;
+	}
+	
+}
+
+h2 {
+	margin: 0px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+
+select {
+	min-width: 102px;
+}
+
+.article:hover{
+	opacity: 0.6;
+}
+
+.article{
+	padding: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 36px;
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-position-x: right;
+}
+
+.article_date{
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	margin-top: 2px;
+	color: #2d2c2c;
+}
+
+.article_photo{
+	width: 100%;
+}
+
+.article_title > h3{
+	margin-top: 2px;
+	margin-bottom: 15px;
+	color: #2d2c2c;
+}
+
+.article_intro{
+	color: #2d2c2c;
+}
+
+div.filtsetting-span {
+	margin-bottom: 20px;
+}
+
+div.filter-span {
+	background-color: #464646;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+select#locale{
+	display: none;
+}
+
+select#search_area {
+	margin-right: 40px;
+}

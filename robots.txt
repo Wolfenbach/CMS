@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /contact.php
+Disallow: /send_form_email.php

@@ -1,0 +1,46 @@
+.article_odd{
+	background-color: #ebebeb;
+	background-image: url('/graphics/grycrnr.png');
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-position-x: right;
+}
+
+.article_even{
+	background-color: #e4ecfb;
+	background-image: url('/graphics/blcrnr.png');
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-position-x: right;
+}
+
+.article_odd:hover, .article_even:hover{
+	opacity: 0.6;
+}
+
+.article_odd, .article_even {
+	padding: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 36px;
+}
+
+.article_date{
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	margin-top: 2px;
+	color: #2d2c2c;
+}
+
+.article_photo{
+	width: 100%;
+}
+
+.article_title > h3{
+	margin-top: 2px;
+	margin-bottom: 15px;
+	color: #2d2c2c;
+}
+
+.article_intro{
+	color: #2d2c2c;
+}

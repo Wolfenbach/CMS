@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://wolfenbach.dk/</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/index.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/about.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/readarticlefunc.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/getarticlefunc.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog/whereIamnow.php</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/index.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/about.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/readarticlefunc.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/getarticlefunc.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog/whereIamnow.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/index.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/about.php?lang=danish</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/readarticlefunc.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/portfolio/getarticlefunc.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://wolfenbach.dk/blog/whereIamnow.php?lang=english</loc>
+  <lastmod>2019-03-12T23:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
