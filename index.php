@@ -105,7 +105,7 @@
 			<a href="contact.php" target="_blank"><div class="content" id="contact_box"><p><?php echo $contacttxt; ?></p></div></a>
 		</div>
 		<div class="content-box">
-			<a href="https://github.com/Wolfenbach/Wolfenbach" target="_blank"><div class="content" id="github_box"><img id="githublogo" src="/graphics/GitHubLogo.png"></div></a>
+			<a href="https://github.com/Wolfenbach/" target="_blank"><div class="content" id="github_box"><img id="githublogo" src="/graphics/GitHubLogo.png"></div></a>
 		</div>
 	</div>
 </div>
