@@ -1,7 +1,5 @@
 
 function CreateCookiePopup() { 
-	console.log($("a#danish").length);
-	console.log($("a#english").length);
 	if($("a#danish").length > 0) {
 		$("body").append(
 		"<div id='cookie_policy' style='position:fixed;left:0px;top:" + $(window).height() + "px;background-color:black;opacity:0.8;color:white;width:100%;padding-bottom:20px;'>" + 
@@ -25,15 +23,15 @@ function CreateCookiePopup() {
 	});
 	
 	$("a#policy").on("click", function(){
-		sessionStorage.clickcount = 0;
+		setCookie(window.location.href + "alert", "0", 7);
 	});
 	
 	$("a#policy").on("click", function(){
-		sessionStorage.clickcount = 0;
+		setCookie(window.location.href + "alert", "0", 7);
 	});
 	
 	$("a").find("img.sel_lang").on("click", function(){
-		sessionStorage.clickcount = 0;
+		setCookie(window.location.href + "alert", "0", 7);
 	});		
 }
 
@@ -46,25 +44,48 @@ function HideCookieNote() {
 }
 	
 function PopUpShown() {
-   	if(typeof(Storage) !== "undefined" || sessionStorage.clickcount == 0) {
+	if(typeof(Storage) !== "undefined" || getCookie(window.location.hostname + "-chkcookiealert") == "0") {
        	if (sessionStorage.clickcount) {
-           	sessionStorage.clickcount = 1;
+           	setCookie(window.location.hostname + "-chkcookiealert", "1", 7);
 		} else {
-			sessionStorage.clickcount = 1;
+			setCookie(window.location.hostname + "-chkcookiealert", "1", 7);
 		}
 	}
 }
 
 $(document).ready(function(){
-
+	
 	//Main
-	if(sessionStorage.clickcount != 1) {
+	if(getCookie(window.location.hostname + "-chkcookiealert") != "1")
+	{
 		CreateCookiePopup();
 		SlideCookieNote();
 		PopUpShown();
-	}
+	}	
 
 });
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
 
 $(window).resize(function(){
 	$("div#cookie_policy").css("top", ($(window).height() - $("div#cookie_policy").height()) + "px");
