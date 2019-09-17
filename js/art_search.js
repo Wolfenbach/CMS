@@ -248,6 +248,29 @@ function filter_alg() {
 	
 }
 
+//Calls either to make a wave pattern or alt pattern depending on the window size, when the window is being resized.
+$( window ).resize(function() {
+	
+	if($(window).width() >= 1200) {
+		make_wave_pattern();
+		set_margin();
+	} else {
+		make_alt_pattern();
+		unset_margin();	
+	}
+	
+});
+
+//Function from jquery UI which controls the datepicker
+$(function() {
+	
+	$("input.cal-sel").datepicker();
+	
+	$("input.cal-sel").datepicker("option",
+		$.datepicker.regional[$("#locale").val() ] );
+		
+});
+
 //Calls either to make a wave pattern or alt pattern depending on the window size, when the page has been loaded.
 $(document).ready(function() {
 	
@@ -255,6 +278,8 @@ $(document).ready(function() {
 	
 	filter_alg();
 
+	equalize_intro_height();
+	
 	$("input.cal-sel").on("keydown", function() {
 		if(old_val == "")
 			old_val = $(this).val();
@@ -288,25 +313,18 @@ $(document).ready(function() {
 	
 });
 
-//Calls either to make a wave pattern or alt pattern depending on the window size, when the window is being resized.
-$( window ).resize(function() {
+//Equalises the height of all the intro texts incase if some are shorter or longer then others.
+function equalize_intro_height() {
 	
-	if($(window).width() >= 1200) {
-		make_wave_pattern();
-		set_margin();
-	} else {
-		make_alt_pattern();
-		unset_margin();	
-	}
+	var x;
 	
-});
-
-//Function from jquery UI which controls the datepicker
-$(function() {
-	
-	$("input.cal-sel").datepicker();
-	
-	$("input.cal-sel").datepicker("option",
-		$.datepicker.regional[$("#locale").val() ] );
+	$("div.article_intro").each(function() {
 		
-});
+		if(x < $(this).height())
+			x = $(this).height();
+		
+	});
+	
+	$("div.article_intro").css("height", x + "px");
+	
+}
